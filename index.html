@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bindal Fitness</title>
+</head>
+    <style>
+        body{
+        background: url('gymbg2.jpg');
+        margin: 0px;
+        padding: 0px;
+        background-repeat:no-repeat;
+       background-size:100%;
+        }
+        .left{
+            display:inline-block;
+            position:absolute;
+            top:20px;
+        }
+        .left img{
+            width:136px;   
+        }
+        .left div{
+            text-align:center;
+            font:57px;
+            line height:45px;
+            color:red;
+        }
+        .mid{
+            display: block;  
+            margin: 20px auto;
+            width:33%;
+        }
+        .navbar li{
+            display:inline-block;
+            color :red;
+            font-size:20px;
+        }
+        .navbar li a {
+            color:red;
+            text-decoration:none;
+            padding:23px;
+        }
+        .container{
+           padding:75px;
+           margin:100px;
+           width:33%;
+           position: block;
+        }
+        .container label{
+            color:white;
+        }
+    </style>
+</body>
+
+<div class="left">
+<img src="gymlogo.png" alt=" " >
+<div> Bindal Fitness</div>
+</div>
+<div class="mid">
+    <ul class="navbar">
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">About Us</a> </li>
+        <li><a href="#">Contact</a> </li>
+    </ul>
+</div>
+<div class="container">
+<h1 style="color:red"> Join the best gym now</h1>
+<form action="smiley.png">
+<label for="fname"> Firstname:</label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Lastname</label><br>
+<input type="text" id="lname" name="lname"><br>
+<label for="doj">Date of joining:</label><br>
+<input type="text" id="doj" name="doj"><br>
+<label for="gender">Gender:</label><br>
+<select id="gender" name="gender"><br>
+    <option value="Female"> Female</option><br>
+    <option value="Male"> Male</option><br>
+</select><br>
+    <label for="age">Age:</label><br>
+<input type="text" id="age" name="age"><br>
+<label for="contact">Contact No.:</label><br>
+<input type="text" id="contact" name="contact"><br>
+<label for="email">Email id:</label><br>
+<input type="text" id="email" name="email"><br>
+   <input type="Submit">
+</form>
+</div>
+</html>
